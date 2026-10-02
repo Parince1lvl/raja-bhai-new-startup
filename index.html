@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join Private Channel</title>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];
+t=b.createElement(e);
+t.async=!0;
+t.src=v;
+s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s);
+}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1410309573980316');
+fbq('track', 'PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1410309573980316&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#000;
+overflow:hidden;
+padding:20px;
+}
+
+body::before{
+content:'';
+position:fixed;
+width:700px;
+height:700px;
+background:#ff00aa;
+border-radius:50%;
+filter:blur(220px);
+opacity:.18;
+}
+
+.card{
+width:100%;
+max-width:430px;
+background:rgba(25,0,18,.88);
+backdrop-filter:blur(16px);
+border:1px solid rgba(255,105,220,.35);
+border-radius:35px;
+padding:35px 25px;
+text-align:center;
+box-shadow:
+0 0 30px rgba(255,0,170,.25),
+0 0 80px rgba(255,0,170,.15);
+position:relative;
+z-index:10;
+}
+
+.avatar{
+width:180px;
+height:180px;
+object-fit:cover;
+border-radius:50%;
+border:6px solid #ff5fd4;
+box-shadow:
+0 0 15px #ff5fd4,
+0 0 40px #ff5fd4,
+0 0 80px rgba(255,95,212,.5);
+}
+
+.tag{
+margin-top:20px;
+color:#ff7be6;
+font-size:13px;
+letter-spacing:8px;
+font-weight:600;
+}
+
+h1{
+margin-top:15px;
+font-size:52px;
+font-weight:800;
+line-height:1;
+color:#fff;
+text-transform:uppercase;
+}
+
+.desc{
+margin-top:20px;
+font-size:18px;
+line-height:1.7;
+color:#d0d0d0;
+}
+
+.join-btn{
+display:block;
+margin-top:30px;
+width:100%;
+padding:20px;
+background:#fff;
+color:#000;
+font-size:22px;
+font-weight:700;
+text-decoration:none;
+border-radius:60px;
+transition:.3s;
+}
+
+.join-btn:hover{
+transform:translateY(-3px);
+box-shadow:0 0 25px #fff;
+}
+
+.stats{
+display:flex;
+gap:10px;
+margin-top:25px;
+}
+
+.box{
+flex:1;
+padding:12px;
+border-radius:15px;
+background:rgba(255,255,255,.05);
+border:1px solid rgba(255,255,255,.08);
+}
+
+.box h3{
+color:#fff;
+font-size:18px;
+}
+
+.box p{
+color:#bbb;
+font-size:12px;
+margin-top:5px;
+}
+
+.footer{
+margin-top:20px;
+font-size:12px;
+color:#888;
+}
+
+@media(max-width:480px){
+
+h1{
+font-size:42px;
+}
+
+.avatar{
+width:150px;
+height:150px;
+}
+
+.desc{
+font-size:16px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="profile.jpg" class="avatar" alt="Profile">
+
+<div class="tag">PRIVATE CHANNEL</div>
+
+<h1>JOIN THE CHANNEL</h1>
+
+<p class="desc">
+Get premium updates, trading insights,
+VIP content and exclusive access.
+</p>
+
+<a
+href="https://t.me/+BtNLdD3ZoxI3MzU9"
+target="_blank"
+class="join-btn"
+onclick="fbq('track','Lead');">
+↗ JOIN CHANNEL
+</a>
+
+<div class="stats">
+<div class="box">
+<h3>24/7</h3>
+<p>Support</p>
+</div>
+
+<div class="box">
+<h3>VIP</h3>
+<p>Access</p>
+</div>
+
+<div class="box">
+<h3>FREE</h3>
+<p>Join Now</p>
+</div>
+</div>
+
+<div class="footer">
+Powered by Prince King
+</div>
+
+</div>
+
+</body>
+</html>
